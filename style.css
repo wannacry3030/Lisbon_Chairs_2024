@@ -129,8 +129,9 @@ img {
 .carousel-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 960px;
   height: 400px;
+  min-height: 400px;
 }
 
 .carousel-slide {
@@ -199,15 +200,6 @@ img {
   background-color: #333;
 }
 
-/* Testimonial section styles */
-.testimonial-section {
-  display: none;
-}
-
-.carousel-slide.active .testimonial-section {
-  display: block;
-}
-
 .testimonial-section {
   background-color: #087f5b;
   color: #fff;
@@ -223,6 +215,7 @@ img {
 .testimonial-box h2 {
   margin-bottom: 24px;
   font-size: 24px;
+  text-align: center;
 }
 
 .testimonial-text {
@@ -231,10 +224,12 @@ img {
   font-size: 18px;
   line-height: 1.7;
   color: #e6fcf5;
+  text-align: space;
 }
 
 .testimonial-author {
   color: #c3fae8;
+  text-align: center;
 }
 
 /* CHAIRS */
