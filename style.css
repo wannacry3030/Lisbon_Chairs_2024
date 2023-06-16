@@ -24,7 +24,7 @@ body {
 }
 
 body.dark-theme {
-  background-color: #000000;
+  background-color: #333;
   color: #ffffff;
 }
 .container {
@@ -172,6 +172,14 @@ img {
   margin: 0 5px;
   border-radius: 50%;
   background-color: #ccc;
+  cursor: pointer;
+}
+.indicator.dark-theme {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
