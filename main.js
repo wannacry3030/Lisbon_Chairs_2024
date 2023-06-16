@@ -44,3 +44,7 @@ nextButton.addEventListener("click", nextSlide);
 
 // Iniciar o carousel automaticamente
 setInterval(autoSlide, 4000);
+
+document.getElementById("theme-toggle").addEventListener("click", function () {
+  document.body.classList.toggle("dark-theme");
+});
