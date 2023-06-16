@@ -299,6 +299,11 @@ footer {
   font-size: 14px;
   color: #495057;
 }
+body.dark-theme footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+  color: #ffffff;
+}
 
 /* testando botoes de mudaça de tema */
 
